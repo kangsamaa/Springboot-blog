@@ -18,7 +18,7 @@ public class HttpControllerTest {
 	
 	@PostMapping("/http/post")
 	public String postTest(@RequestBody Member m) {
-		return "post요청" + m.getId() + "," + m.getUsername() +"," + m.getPassword();
+		return "post요청";
 	}
 	
 	@PutMapping("/http/put")
